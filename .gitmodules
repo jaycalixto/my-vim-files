@@ -1,0 +1,9 @@
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "bundle/nim.vim"]
+	path = bundle/nim.vim
+	url = git://github.com/zah/nim.vim.git
