@@ -1,4 +1,7 @@
+"set the dir of the project. equivalent of .vim in linux and vimfiles folder
+"in windows
 set rtp+=~/Documents/my-vim-files/
 
+"set the vimrc of the project
 let $MYVIMRC="~/Documents/my-vim-files/vimrc"
 source $MYVIMRC
