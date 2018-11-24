@@ -1,0 +1,4 @@
+set rtp+=~/Documents/my-vim-files/
+
+let $MYVIMRC="~/Documents/my-vim-files/vimrc"
+source $MYVIMRC

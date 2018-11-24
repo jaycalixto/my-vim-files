@@ -2,7 +2,11 @@ let $HOME=$VIM
 "set smartindent
 "syntax on
 set number
-set colorcolumn=80
+
+"set colorcolumn=80
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+let &colorcolumn=join(range(81,999),",")
+
 color srcery
 execute pathogen#infect()
 syntax on
