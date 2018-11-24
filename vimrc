@@ -4,10 +4,14 @@ let $HOME=$VIM
 set number
 
 "set colorcolumn=80
-highlight ColorColumn ctermbg=102 guibg=#2c2d27
-let &colorcolumn=join(range(81,999),",")
+"highlight ColorColumn ctermbg=102 guibg=#2c2d27
+"let &colorcolumn=join(range(81,999),",")
+"highlight Normal ctermfg=black ctermbg=white
 
 color srcery
+"color fruidle
+
+"highlight Normal ctermfg=black ctermbg=white
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
