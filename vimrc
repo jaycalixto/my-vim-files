@@ -1,15 +1,22 @@
 let $HOME=$VIM
-"set smartindent
-"syntax on
-set number
 
-"set colorcolumn=80
-"highlight ColorColumn ctermbg=102 guibg=#2c2d27
-"let &colorcolumn=join(range(81,999),",")
-"highlight Normal ctermfg=black ctermbg=white
+set number
+set encoding=utf-8
+
+" for python development
+" au BufNewFile,BufRead *.py
+"    \ set tabstop=4
+"    \ set softtabstop=4
+"    \ set shiftwidth=4
+"    \ set textwidth=79
+"    \ set expandtab
+"    \ set autoindent
+"    \ set fileformat=unix
+
+"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
 
 color srcery
-"color fruidle
 
 "highlight Normal ctermfg=black ctermbg=white
 execute pathogen#infect()
