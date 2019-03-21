@@ -20,6 +20,7 @@ color srcery
 
 "highlight Normal ctermfg=black ctermbg=white
 execute pathogen#infect()
+"call pathogen#helptags() " generate helptags in runtime
 syntax on
 filetype plugin indent on
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
