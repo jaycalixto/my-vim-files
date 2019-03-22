@@ -22,6 +22,19 @@ color srcery
 execute pathogen#infect()
 "call pathogen#helptags() " generate helptags in runtime
 syntax on
+
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
+
+" temporary disable this plugin
+set runtimepath-=~\vimfiles\bundle\syntastic
+
 filetype plugin indent on
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 if has("gui_running")
